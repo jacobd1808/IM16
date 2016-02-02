@@ -1,0 +1,30 @@
+
+
+IM16 Team LGP 
+
+--------------------------------
+
+==
+== Directory Structure 
+==
+
+// _Admin 
+	Any HTML pages relating to the admin panel (can include it's own framework)
+// App
+	// Config 
+		* Conn.php 				Edit for your system ** 
+		* functions.php 		Any common PHP functions go in here 
+	// Controller 				Handle your login here 		
+	// Models 					
+		* User.php 				Includes (non tested) code for fetching, inserting, updating and deleting from database 
+	// Views 					Just common HTML chunks, usually have a templates or modules folder too 
+// Assets 						CSS, JS and Img Folders 
+// Lib							Any plugins or libarys in here 
+
+* .bowerrc						Send anything from bower into the Lib folder 
+* Index.php 					Basic page structure I use (can be changed to what ever)
+* Readme.md 					Read Me file for Git
+
+---------------------------------
+
+This is the folder stucture i've been using a while, isn't perfect but should be a good base layer for going forward.
