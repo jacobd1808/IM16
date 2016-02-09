@@ -9,7 +9,10 @@
         <link href='https://fonts.googleapis.com/css?family=Roboto:400,300,500,700,900,100,200,600' rel='stylesheet' type='text/css'>
         <link href='https://fonts.googleapis.com/css?family=Roboto+Condensed:400,700,300' rel='stylesheet' type='text/css'>
         <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-        <!-- Page Specfic Files-->
+        <!-- Pure Framework-->
+        <link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.6.0/pure-min.css">
+        <link rel="stylesheet" href="//cdn.jsdelivr.net/jquery.sidr/2.1.0/stylesheets/jquery.sidr.dark.min.css">
+        <!-- -->
         <?php if($pageOpt['cssIncludes']) { echo $pageOpt['cssIncludes']; } ?> 
         <!-- Main CSS File-->
         <link rel="stylesheet" href="assets/css/main.css?<?php echo time(); ?>">

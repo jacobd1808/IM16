@@ -1,6 +1,59 @@
 
-header { 
+body { 
+	font-family: roboto; 
+	font-weight: 300;
+}
+.wrapper { 
+	max-width: 1000px;
+	margin: auto;
+}
 
+#clockdiv { 
+	max-width: 600px;
+	margin: 200px auto;
+	background-color: $body-darken;
+	div.countdown-ele { 
+		width: 25%;
+		padding: 10px;
+		float: left;
+		text-align: center;
+		text-transform: uppercase;
+		font-weight: 300;
+		color: #aaa;
+		span.countdown-big { 
+			font-size: 5.0em;
+			margin-bottom: 10px;
+			color: white;
+			font-weight: 200;
+		}
+	}
+}
+
+header { 
+	background-color: $body-darken;
+	padding: 10px 0;
+	img.IM16-logo { 
+		height: 80px;
+		width: 150px;
+		background-color: $body-lighten;
+		border-width: 0px;
+		float: left;
+	}
+	nav.pure-menu-horizontal { 
+		float: right;
+		width: auto;
+		font-size: 1.2em;
+		margin-top: 18px;
+		li { 
+			a { 
+				text-transform: uppercase;
+				&:hover { 
+					background-color: transparent;
+					color: white;
+				}
+			}
+		}
+	}
 } 
 
 

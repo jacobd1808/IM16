@@ -2,7 +2,7 @@
   include_once "app/config/conn.php";
 	
 	$pageOpt = array(
-		"title"			    =>	"Welcome", 
+		"title"			    =>	"IM16 . Coming Soon", 
 		'navName' 		  	=> 	"home", 
 		'cssIncludes'	  	=>	" ", 
 		"jsIncludes"	 	=>	" ",
@@ -21,7 +21,25 @@
     <body>
       <?php include_once "app/views/header.php"; ?>
       <div class='view'> 
-          All Set Up
+          <div id="clockdiv">
+            <div class='countdown-ele'>
+              <span class="countdown-days countdown-big"></span>
+              <div class="countdown-small">Days</div>
+            </div>
+            <div class='countdown-ele'>
+              <span class="countdown-hours countdown-big"></span>
+              <div class="countdown-small">Hours</div>
+            </div>
+            <div class='countdown-ele'>
+              <span class="countdown-minutes countdown-big"></span>
+              <div class="countdown-small">Minutes</div>
+            </div>
+            <div class='countdown-ele'>
+              <span class="countdown-seconds countdown-big"></span>
+              <div class="countdown-small">Seconds</div>
+            </div>
+            <div class='clear'></div>
+          </div>
       </div>
     	<?php include_once "app/views/scripts.php"; ?>
     </body>
