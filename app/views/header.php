@@ -1,4 +1,4 @@
-<div id="mobile-header">
+<div id="mobile-nav">
     <a id="nav-button" href="#responsive-nav"><i class="material-icons">menu</i></a>
 </div>
 
